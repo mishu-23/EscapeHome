@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '6000.0/staging' branch; Version is '6000.0.26f1 (ccb7c73d2c02) revision 13416391'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 15741 MB
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 15741 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -15,7 +15,7 @@ C:/EscapeHome/EscapeHome/Homescape - The CATastrophy
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-56919
+63084
 -job-worker-count
 7
 -background-job-worker-count
@@ -59,14 +59,14 @@ C:/EscapeHome/EscapeHome/Homescape - The CATastrophy
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [46128]  Target information:
+Player connection [30592]  Target information:
 
-Player connection [46128]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1342300257 [EditorId] 1342300257 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GGMLOOT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [30592]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 115826493 [EditorId] 115826493 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GGMLOOT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [46128]  * "[IP] 172.17.48.33 [Port] 0 [Flags] 2 [Guid] 1342300257 [EditorId] 1342300257 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GGMLOOT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [30592]  * "[IP] 192.168.39.120 [Port] 0 [Flags] 2 [Guid] 115826493 [EditorId] 115826493 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GGMLOOT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [46128] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [46128] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [30592] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [30592] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -77,7 +77,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 10.26 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 12.32 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.26f1 (ccb7c73d2c02)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 6000.0.26f1/Editor/Data/Resources/UnitySubsystems
@@ -93,44 +93,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 6000.0.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 6000.0.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 6000.0.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 6000.0.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002304 seconds.
-- Loaded All Assemblies, in  0.446 seconds
+Registered in 0.002357 seconds.
+- Loaded All Assemblies, in  0.442 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.509 seconds
-Domain Reload Profiling: 954ms
-	BeginReloadAssembly (155ms)
+- Finished resetting the current domain, in  0.391 seconds
+Domain Reload Profiling: 832ms
+	BeginReloadAssembly (153ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (177ms)
-		LoadAssemblies (152ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (178ms)
+		LoadAssemblies (150ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (173ms)
-			TypeCache.Refresh (172ms)
-				TypeCache.ScanAssembly (158ms)
+		AnalyzeDomain (175ms)
+			TypeCache.Refresh (173ms)
+				TypeCache.ScanAssembly (155ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (510ms)
+	FinalizeReload (392ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (470ms)
+		SetupLoadedEditorAssemblies (336ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (31ms)
-			SetLoadedEditorAssemblies (6ms)
+			SetLoadedEditorAssemblies (5ms)
 			BeforeProcessingInitializeOnLoad (7ms)
-			ProcessInitializeOnLoadAttributes (320ms)
-			ProcessInitializeOnLoadMethodAttributes (103ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (226ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -138,10 +138,10 @@ Domain Reload Profiling: 954ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.337 seconds
+- Loaded All Assemblies, in  1.035 seconds
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 10.61 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 7.60 ms, found 9 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -154,150 +154,46 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.292 seconds
-Domain Reload Profiling: 2626ms
-	BeginReloadAssembly (540ms)
+- Finished resetting the current domain, in  1.025 seconds
+Domain Reload Profiling: 2056ms
+	BeginReloadAssembly (403ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (49ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (687ms)
-		LoadAssemblies (465ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (542ms)
+		LoadAssemblies (341ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (367ms)
-			TypeCache.Refresh (245ms)
-				TypeCache.ScanAssembly (217ms)
-			BuildScriptInfoCaches (103ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1293ms)
+		AnalyzeDomain (298ms)
+			TypeCache.Refresh (196ms)
+				TypeCache.ScanAssembly (179ms)
+			BuildScriptInfoCaches (85ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1025ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (932ms)
+		SetupLoadedEditorAssemblies (739ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (97ms)
-			ProcessInitializeOnLoadAttributes (662ms)
-			ProcessInitializeOnLoadMethodAttributes (155ms)
-			AfterProcessingInitializeOnLoad (10ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (517ms)
+			ProcessInitializeOnLoadMethodAttributes (132ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 13.01 ms, found 9 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 7.24 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 199 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6783 unused Assets / (5.4 MB). Loaded Objects now: 7544.
-Memory consumption went from 188.0 MB to 182.6 MB.
-Total: 21.859400 ms (FindLiveObjects: 1.629100 ms CreateObjectMapping: 2.188500 ms MarkObjects: 11.048300 ms  DeleteObjects: 6.990800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1003077.877468 seconds.
-  path: Assets/nappin/House Props Softpack/Prefabs/(Prb)MediaConsole.prefab
-  artifactKey: Guid(4120787eca51d3e46b9f4dfd0b614fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Prefabs/(Prb)MediaConsole.prefab using Guid(4120787eca51d3e46b9f4dfd0b614fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e620955915ba323941f24631fbe5972a') in 0.6571127 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/nappin/House Props Softpack/Prefabs/(Prb)KitchenSink.prefab
-  artifactKey: Guid(5c53a6c9c85b969488e8513f82ebf8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Prefabs/(Prb)KitchenSink.prefab using Guid(5c53a6c9c85b969488e8513f82ebf8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52e06f9b2eb3e6fd4e14789d403752a3') in 0.0407661 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/nappin/House Props Softpack/Prefabs/(Prb)Rack.prefab
-  artifactKey: Guid(9b9a47e6447b0404fad889aea9f6360b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Prefabs/(Prb)Rack.prefab using Guid(9b9a47e6447b0404fad889aea9f6360b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ab5e540b65163218777dd295bce8bb7') in 0.0309004 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/nappin/House Props Softpack/Prefabs/(Prb)LaunchTable.prefab
-  artifactKey: Guid(7bb52cc09c8c76e43a75786dccaf3fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Prefabs/(Prb)LaunchTable.prefab using Guid(7bb52cc09c8c76e43a75786dccaf3fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa9c2cd1ce499e91b623e8251b4421bc') in 0.0226441 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/nappin/House Props Softpack/Prefabs/(Prb)LaunchTable_vase3.prefab
-  artifactKey: Guid(dd9970b340623644eb4b3204eee4458e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Prefabs/(Prb)LaunchTable_vase3.prefab using Guid(dd9970b340623644eb4b3204eee4458e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d43aff9dd794f64a22e12c6c950c55a') in 0.021251 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/nappin/House Props Softpack/Prefabs/(Prb)Lamp.prefab
-  artifactKey: Guid(184025b0b1d332c4db8122de5dd6c499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Prefabs/(Prb)Lamp.prefab using Guid(184025b0b1d332c4db8122de5dd6c499) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2106090925a707b4300b7fba12a0f8dd') in 0.026741 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.033004 seconds.
-  path: Assets/nappin/House Props Softpack/Prefabs/(Prb)ShowerFace.prefab
-  artifactKey: Guid(d75d62e350e6ccb4fa03f56c0a8fd8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Prefabs/(Prb)ShowerFace.prefab using Guid(d75d62e350e6ccb4fa03f56c0a8fd8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83c38688a79d223a6c98a0f6979b654d') in 0.0286634 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.010653 seconds.
-  path: Assets/nappin/House Props Softpack/Prefabs/(Prb)SoapDispenser.prefab
-  artifactKey: Guid(6a3dbb2a6b4da624abc81f5dc716f1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Prefabs/(Prb)SoapDispenser.prefab using Guid(6a3dbb2a6b4da624abc81f5dc716f1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4c038d46382eedef32ad237f97156a4') in 0.0255582 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001511 seconds.
-  path: Assets/nappin/House Props Softpack/Prefabs/(Prb)Storage1.prefab
-  artifactKey: Guid(97bc4339b3151c34799878d35be91e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Prefabs/(Prb)Storage1.prefab using Guid(97bc4339b3151c34799878d35be91e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75aac52d2c61172338183be8acca8bf8') in 0.0287457 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000931 seconds.
-  path: Assets/nappin/House Props Softpack/Prefabs/(Prb)Wardrobe.prefab
-  artifactKey: Guid(bdeb57ff900e167419635eef4854627d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Prefabs/(Prb)Wardrobe.prefab using Guid(bdeb57ff900e167419635eef4854627d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd746c77e1a0f4d59b29ad8d99e9739f') in 0.037831 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 81
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.857465 seconds.
-  path: Assets/nappin/House Props Softpack/Materials/(Mat)GradientDarkBrown.mat
-  artifactKey: Guid(5f00a35557dee5b499cf97dda42339c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Materials/(Mat)GradientDarkBrown.mat using Guid(5f00a35557dee5b499cf97dda42339c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4954ed5aa11a19d0364d0385ba9451c2') in 0.0399145 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/nappin/House Props Softpack/Materials/(Mat)GradientRed.mat
-  artifactKey: Guid(fac6997ebfb39364db1173ae4a1c49e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Materials/(Mat)GradientRed.mat using Guid(fac6997ebfb39364db1173ae4a1c49e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0280c713f6c83d2ee93545df33fc3344') in 0.0195435 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/nappin/House Props Softpack/Materials/(Mat)GradientDarkGrey.mat
-  artifactKey: Guid(eecaa3198cbebd74e8cd79d0f71765cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Materials/(Mat)GradientDarkGrey.mat using Guid(eecaa3198cbebd74e8cd79d0f71765cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b66ede6b7a4ccc22bec351e6c87fd6a1') in 0.0204849 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+Unloading 216 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6816 unused Assets / (4.6 MB). Loaded Objects now: 7572.
+Memory consumption went from 196.0 MB to 191.5 MB.
+Total: 10.537100 ms (FindLiveObjects: 0.813500 ms CreateObjectMapping: 1.048700 ms MarkObjects: 5.946500 ms  DeleteObjects: 2.726800 ms)
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
