@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638683808780111410
-    m_Hash: 1448299710
+      ticks: 638726180173437705
+    m_Hash: 2544806846
   m_LockFileStatus:
     m_FilePath: C:/EscapeHome/EscapeHome/Homescape - The CATastrophy/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638683808825120547
-    m_Hash: 1265699014
+      ticks: 638726180173493650
+    m_Hash: 2515851985
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,10 +22,10 @@ m_LocalPackages:
 m_ProjectPath: C:/EscapeHome/EscapeHome/Homescape - The CATastrophy/Packages
 m_EditorVersion: 6000.0.26f1 (ccb7c73d2c02)
 m_ResolvedPackages:
-- packageId: com.unity.ai.navigation@2.0.4
+- packageId: com.unity.ai.navigation@2.0.5
   testable: 0
   isDirectDependency: 1
-  version: 2.0.4
+  version: 2.0.5
   source: 1
   resolvedPath: C:\EscapeHome\EscapeHome\Homescape - The CATastrophy\Library\PackageCache\com.unity.ai.navigation
   assetPath: Packages/com.unity.ai.navigation
@@ -45,7 +45,6 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 1.0.0-exp.1
     - 1.0.0-exp.2
     - 1.0.0-exp.3
     - 1.0.0-exp.4
@@ -103,13 +102,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638605675584270000
+  datePublishedTicks: 638675282916940000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ai.navigation@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ai.navigation.git
-    revision: 2c565f88d424bed980de32ead5a48791e9db9936
+    revision: 110941630e19b3574f9f81fd6fe3c28e867a9321
     path: 
   unityLifecycle:
     version: 2.0.4
@@ -122,11 +121,12 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n* NavMesh Modifier was not overriding the
-    area type in a NavMesh built from within an `Awake()` method ([NAVB-39](https://issuetracker.unity3d.com/issues/building-navmesh-with-navmeshsurface-does-not-bake-areas-into-navmeshtriangulation-when-buildnavmesh-is-called-in-awake))"}'
+  upmReserved: '{"changelog":"### Fixed\n* NavMesh Link would not update when switching
+    from the **Not Walkable** area type to any other area type in the inspector.
+    (NAVB-87)\n* A few documentation paragraphs and links were not accurate."}'
   assetStore:
     productId: 
-  fingerprint: 3f89ad87253dcaae2d0bb583bd5ef4c4f2c17764
+  fingerprint: 9f76b145f0a8dd734ff2a4877f7f7edb83b7f62c
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.4
@@ -227,8 +227,10 @@ m_ResolvedPackages:
     - 2.4.4
     - 2.5.1
     - 2.5.2
+    - 2.6.0
     compatible:
     - 2.5.2
+    - 2.6.0
     recommended: 2.5.2
     deprecated: []
   dependencies: []
@@ -288,10 +290,10 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 2.5.2
     minimumUnityVersion: 2020.3.48f1
-- packageId: com.unity.ide.rider@3.0.31
+- packageId: com.unity.ide.rider@3.0.34
   testable: 0
   isDirectDependency: 1
-  version: 3.0.31
+  version: 3.0.34
   source: 1
   resolvedPath: C:\EscapeHome\EscapeHome\Homescape - The CATastrophy\Library\PackageCache\com.unity.ide.rider
   assetPath: Packages/com.unity.ide.rider
@@ -302,7 +304,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: The JetBrains Rider Editor package provides an integration for using
     the JetBrains Rider IDE as a code editor for Unity. It adds support for generating
     .csproj files for code completion and auto-discovery of installations.
@@ -377,13 +379,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638548308080000000
+  datePublishedTicks: 638651995659960000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: ccd778a2275ff09f1a83bc924cfb2fb4d5b63566
+    revision: 700eb86ebc7b9f72d760e2e1c740fc5e2fd6a54b
     path: 
   unityLifecycle:
     version: 3.0.31
@@ -396,17 +398,14 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"fix RIDER-104519 Rider is reporting errors in scripts
-    that work fine in Unity when utilizing DOTS - when Player project, by generating
-    projects for all assemblies in \"com.unity.entities\", \"com.unity.collections\"\nfix
-    RIDER-111622 Unity Rider package is not compatible with Rider Dev builds"}'
+  upmReserved: '{"changelog":"- Bump Unity minimum supported version"}'
   assetStore:
     productId: 
-  fingerprint: 7921be93db40ec070fcb01ed82d1c3df1bbdddcd
+  fingerprint: ecbf706690e5ce42dc165ddd8e5754acda3dc6b9
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 3.0.31
-    minimumUnityVersion: 2019.2.6f1
+    minimumUnityVersion: 2019.4.6f1
 - packageId: com.unity.ide.visualstudio@2.0.22
   testable: 0
   isDirectDependency: 1
@@ -1447,10 +1446,10 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.0
     minimumUnityVersion: 2019.2.0a1
-- packageId: com.unity.visualscripting@1.9.4
+- packageId: com.unity.visualscripting@1.9.5
   testable: 0
   isDirectDependency: 1
-  version: 1.9.4
+  version: 1.9.5
   source: 1
   resolvedPath: C:\EscapeHome\EscapeHome\Homescape - The CATastrophy\Library\PackageCache\com.unity.visualscripting
   assetPath: Packages/com.unity.visualscripting
@@ -1492,7 +1491,6 @@ m_ResolvedPackages:
     - 1.7.6
     - 1.7.7
     - 1.7.8
-    - 1.8.0-pre.1
     - 1.8.0
     - 1.9.0
     - 1.9.1
@@ -1503,8 +1501,7 @@ m_ResolvedPackages:
     - 1.9.4
     - 1.9.5
     recommended: 1.9.5
-    deprecated:
-    - 1.8.0-pre.1
+    deprecated: []
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -1532,13 +1529,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638488567680000000
+  datePublishedTicks: 638659692270900000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.visualscripting.git
-    revision: 41aac2b7038c2b1259c546329890d3736ce2394e
+    revision: 3621ef0207747a605f195118ba99d1a8bdb19433
     path: 
   unityLifecycle:
     version: 1.9.4
@@ -1551,14 +1548,174 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n- Fixed sqlite dll changes not being recognized
-    correctly by the 2022.3 Unity Editor"}'
+  upmReserved: '{"changelog":"### Fixed\n- Fixed \"NullReferenceException\" error
+    when returning to the State Graph from the Script Graph. [UVSB-1905](https://issuetracker.unity3d.com/product/unity/issues/guid/UVSB-1905)\n-
+    Fixed compilation error when a graph contains a reference to a method with an
+    \"in\" parameter. [UVSB-2544](https://issuetracker.unity3d.com/product/unity/issues/guid/UVSB-2487)\n-
+    Added missing truncate function to Formula node [UVSB-2526](https://issuetracker.unity3d.com/product/unity/issues/guid/UVSB-2525)\n-
+    Fixed an error when creating a Script Graph asset in an empty project\n\n###
+    Changed\n- Updated deprecated EditorAnalytics APIs to new ones"}'
   assetStore:
     productId: 
-  fingerprint: 0920df93f9574f857a55af27bd38fdd9230a3f51
+  fingerprint: 1b53f46e931bea668e53f1feb0ac9138170c9455
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.9.4
+    minimumUnityVersion: 2021.3.0a1
+- packageId: com.unity.xr.hands@1.5.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.5.0
+  source: 1
+  resolvedPath: C:\EscapeHome\EscapeHome\Homescape - The CATastrophy\Library\PackageCache\com.unity.xr.hands
+  assetPath: Packages/com.unity.xr.hands
+  name: com.unity.xr.hands
+  displayName: XR Hands
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Surfaces the cross-platform subsystem API for hand-tracking. Implementations
+    of providers will be found in the package for that platform.
+  errors: []
+  versions:
+    all:
+    - 1.0.0-pre.2
+    - 1.1.0-pre.2
+    - 1.1.0-pre.3
+    - 1.1.0
+    - 1.2.0
+    - 1.2.1
+    - 1.3.0
+    - 1.4.0-pre.1
+    - 1.4.0
+    - 1.4.1
+    - 1.4.3
+    - 1.5.0-pre.1
+    - 1.5.0-pre.3
+    - 1.5.0-pre.4
+    - 1.5.0
+    compatible:
+    - 1.5.0
+    recommended: 1.5.0
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.inputsystem
+    version: 1.3.0
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.xr.core-utils
+    version: 2.2.0
+  - name: com.unity.xr.management
+    version: 4.0.1
+  resolvedDependencies:
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.inputsystem
+    version: 1.11.2
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.3.2
+  - name: com.unity.xr.core-utils
+    version: 2.3.0
+  - name: com.unity.xr.management
+    version: 4.5.0
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.11
+  keywords:
+  - xr
+  - vr
+  - virtual
+  - reality
+  - hand
+  - tracking
+  - hands
+  - subsystem
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638630302524860000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.hands@1.5/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.hands.git
+    revision: 4885d8ead84d87a2b2a38945923fbbc7b1ef8131
+    path: 
+  unityLifecycle:
+    version: 1.5.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Added\n\n- Added `XRCommonHandGestures` and surfaced
+    related data from the OpenXR Hand Interaction Profile extension.\n- Added public
+    `subsystem` property to `XRHandTrackingEvents` to let users get the `XRHandSubsystem`
+    that is the source of the hand tracking data. Also added public `subsystem` property
+    to `XRHandJointsUpdatedEventArgs` so it is available in the `XRHandTrackingEvents.jointsUpdated`
+    event callback.\n- Added support for a new `XRHandJointTrackingState.HighFidelityPose`
+    flag to the XR Hands Subsystem.\n    - Added support for the HighFidelityPose
+    tracking flag to the OpenXRHandProvider.\n    - Updated hand visualization sample
+    to color debug joint cubes based on tracking fidelity: opaque white for joints
+    which have a pose and are high fidelity; translucent red for joints which have
+    a pose and are not high fidelity.\n- Added OpenXR callbacks `HandTracking.subsystemCreated`
+    and `HandTracking.destroyingSubsystem` for lifecycle response.\n- Added OpenXR
+    APIs `HandTracking.automaticallyInitializeSubsystem` and `HandTracking.EnsureSubsystemInitialized`
+    to allow for delayed initialization of the `XRHandSubsystem`. To disable automatic
+    creation in time, set `HandTracking.automaticallyInitializeSubsystem` to `false`
+    in a `static` method decorated with `[RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]`,
+    then call `HandTracking.EnsureSubsystemInitialized` when ready.\n\n### Changed\n\n-
+    Allows for ignoring tip-most knuckle when calculating full curl when the `XRFingerShapeConfiguration`''s
+    `minimumFullCurlDegrees3` or `maximumFullCurlDegrees3` is non-positive.\n\n###
+    Fixed\n\n- Fixed reference direction when using `XRHandUserRelativeDirection.NoseDirection`
+    for gesture detection.\n- Fixed runtime invalidation, which resulted in crashes
+    on some OpenXR runtimes. Runtime is invalidated when the `XrInstance` is destroyed.\n-
+    Fixed threshold-checking on gesture conditions to allow for the full range in
+    `XRFingerShapeCondition`.\n- `XRCommonHandGestures` data retrieval no longer
+    GC.Allocs.\n- Updated app space change behavior for XR provider to no longer
+    destroy hand trackers only to recreate them the next update.\n- Fixed issue where
+    XrHands would try to update hand joints with an uninitialized XrTime value of
+    XR_INFINITE_DURATION.\n- Fixed an issue with packaging that prevented MacOS compatible
+    libraries from being included as part of the package."}'
+  assetStore:
+    productId: 
+  fingerprint: b137b9cef9d8ac6f2f21023d4def8cc316ae4dbc
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.5.0
     minimumUnityVersion: 2021.3.0a1
 - packageId: com.unity.xr.interaction.toolkit@3.0.7
   testable: 0
@@ -1633,10 +1790,12 @@ m_ResolvedPackages:
     - 3.0.5
     - 3.0.6
     - 3.0.7
+    - 3.1.0-pre.1
     compatible:
     - 3.0.5
     - 3.0.6
     - 3.0.7
+    - 3.1.0-pre.1
     recommended: 3.0.7
     deprecated: []
   dependencies:
@@ -1895,10 +2054,124 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 4.5.0
     minimumUnityVersion: 2020.3.15f1
-- packageId: com.unity.xr.openxr@1.13.1
+- packageId: com.unity.xr.mock-hmd@1.4.0-preview.2
   testable: 0
   isDirectDependency: 1
-  version: 1.13.1
+  version: 1.4.0-preview.2
+  source: 1
+  resolvedPath: C:\EscapeHome\EscapeHome\Homescape - The CATastrophy\Library\PackageCache\com.unity.xr.mock-hmd
+  assetPath: Packages/com.unity.xr.mock-hmd
+  name: com.unity.xr.mock-hmd
+  displayName: MockHMD XR Plugin
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: Provides rendering and input support for XR MockHMD.
+  errors: []
+  versions:
+    all:
+    - 1.0.0-preview.1
+    - 1.0.0-preview.2
+    - 1.0.1-preview.3
+    - 1.0.1-preview.4
+    - 1.0.1-preview.5
+    - 1.0.1-preview.6
+    - 1.0.1-preview.7
+    - 1.1.0-preview.1
+    - 1.1.1-preview.1
+    - 1.1.2-preview.1
+    - 1.1.3-preview.1
+    - 1.2.0-preview.1
+    - 1.3.0-preview.1
+    - 1.3.1-preview.1
+    - 1.4.0-preview.2
+    compatible:
+    - 1.0.0-preview.1
+    - 1.0.0-preview.2
+    - 1.0.1-preview.3
+    - 1.0.1-preview.4
+    - 1.0.1-preview.5
+    - 1.0.1-preview.6
+    - 1.0.1-preview.7
+    - 1.1.0-preview.1
+    - 1.1.1-preview.1
+    - 1.1.2-preview.1
+    - 1.1.3-preview.1
+    - 1.2.0-preview.1
+    - 1.3.0-preview.1
+    - 1.3.1-preview.1
+    - 1.4.0-preview.2
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.unity.xr.management
+    version: 4.0.1
+  resolvedDependencies:
+  - name: com.unity.xr.management
+    version: 4.5.0
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.11
+  keywords:
+  - mock-hmd
+  - xr
+  - reality
+  - xreditorsubsystem
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638500028990000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.mock-hmd@1.4/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/xr.sdk.mock-hmd.git
+    revision: da988b45ffbae3f02c1204ca1c9a0c4e8da64261
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"* Added foveated rendering support for Metal."}'
+  assetStore:
+    productId: 
+  fingerprint: bf4cb37c5d7a4b8dbfc9c398afe865e8bff26226
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0-preview.1
+    minimumUnityVersion: 2021.3.0a1
+- packageId: com.unity.xr.openxr@1.13.2
+  testable: 0
+  isDirectDependency: 1
+  version: 1.13.2
   source: 1
   resolvedPath: C:\EscapeHome\EscapeHome\Homescape - The CATastrophy\Library\PackageCache\com.unity.xr.openxr
   assetPath: Packages/com.unity.xr.openxr
@@ -1950,10 +2223,14 @@ m_ResolvedPackages:
     - 1.12.1
     - 1.13.0
     - 1.13.1
+    - 1.13.2
+    - 1.14.0
     compatible:
     - 1.13.0
     - 1.13.1
-    recommended: 1.13.1
+    - 1.13.2
+    - 1.14.0
+    recommended: 1.13.2
     deprecated: []
   dependencies:
   - name: com.unity.inputsystem
@@ -2008,13 +2285,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638664888294330000
+  datePublishedTicks: 638683859917210000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.openxr@1.13/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/xr.sdk.openxr.git
-    revision: b57e67aa5c6362056be20a899326c7abf5489f9c
+    revision: 7a73dc28961a89404ce49c1d921745c3da170240
     path: 
   unityLifecycle:
     version: 1.13.0
@@ -2027,11 +2304,14 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n\n* Conformance Automation Feature:  Removed
-    assert for optional entry point xrSetInputDeviceVelocityUNITY."}'
+  upmReserved: '{"changelog":"### Added\n\n* Added UWP platform as one of the supported
+    build targets for OpenXR Composition Layer feature.\n\n### Fixed\n\n* Fixed compiler
+    errors when using experimental versions of the XR Composition Layers package
+    (versions older than 1.0.0). You are required to use XR Composition Layers 1.0.0
+    or newer for OpenXR support."}'
   assetStore:
     productId: 
-  fingerprint: 767bb845714d00a28b9456f5d706bb80c95781b7
+  fingerprint: b26e591b92ca1195bc976482dd9395786d1fcc20
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.13.0
@@ -4504,11 +4784,17 @@ m_ResolvedPackages:
     - 2.4.0-exp.1
     - 2.4.0-exp.2
     - 2.4.0-exp.3
+    - 2.4.0
+    - 2.5.0
+    - 2.5.1
     compatible:
     - 2.3.0
     - 2.4.0-exp.1
     - 2.4.0-exp.2
     - 2.4.0-exp.3
+    - 2.4.0
+    - 2.5.0
+    - 2.5.1
     recommended: 2.3.0
     deprecated: []
   dependencies:

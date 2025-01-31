@@ -8,12 +8,12 @@
     "C:\\EscapeHome\\EscapeHome\\Homescape - The CATastrophy\\Packages\\packages-lock.json"
   ],
   "outputs": {
-    "com.unity.ai.navigation@2.0.4": {
+    "com.unity.ai.navigation@2.0.5": {
       "name": "com.unity.ai.navigation",
       "resolvedPath": "C:\\EscapeHome\\EscapeHome\\Homescape - The CATastrophy\\Library\\PackageCache\\com.unity.ai.navigation",
-      "fingerprint": "3f89ad87253dcaae2d0bb583bd5ef4c4f2c17764",
+      "fingerprint": "9f76b145f0a8dd734ff2a4877f7f7edb83b7f62c",
       "editorCompatibility": "2023.2.0a18",
-      "version": "2.0.4",
+      "version": "2.0.5",
       "source": "registry"
     },
     "com.unity.collab-proxy@2.5.2": {
@@ -24,12 +24,12 @@
       "version": "2.5.2",
       "source": "registry"
     },
-    "com.unity.ide.rider@3.0.31": {
+    "com.unity.ide.rider@3.0.34": {
       "name": "com.unity.ide.rider",
       "resolvedPath": "C:\\EscapeHome\\EscapeHome\\Homescape - The CATastrophy\\Library\\PackageCache\\com.unity.ide.rider",
-      "fingerprint": "7921be93db40ec070fcb01ed82d1c3df1bbdddcd",
-      "editorCompatibility": "2019.2.6f1",
-      "version": "3.0.31",
+      "fingerprint": "ecbf706690e5ce42dc165ddd8e5754acda3dc6b9",
+      "editorCompatibility": "2019.4.6f1",
+      "version": "3.0.34",
       "source": "registry"
     },
     "com.unity.ide.visualstudio@2.0.22": {
@@ -96,12 +96,20 @@
       "version": "2.0.0",
       "source": "builtin"
     },
-    "com.unity.visualscripting@1.9.4": {
+    "com.unity.visualscripting@1.9.5": {
       "name": "com.unity.visualscripting",
       "resolvedPath": "C:\\EscapeHome\\EscapeHome\\Homescape - The CATastrophy\\Library\\PackageCache\\com.unity.visualscripting",
-      "fingerprint": "0920df93f9574f857a55af27bd38fdd9230a3f51",
+      "fingerprint": "1b53f46e931bea668e53f1feb0ac9138170c9455",
       "editorCompatibility": "2021.3.0a1",
-      "version": "1.9.4",
+      "version": "1.9.5",
+      "source": "registry"
+    },
+    "com.unity.xr.hands@1.5.0": {
+      "name": "com.unity.xr.hands",
+      "resolvedPath": "C:\\EscapeHome\\EscapeHome\\Homescape - The CATastrophy\\Library\\PackageCache\\com.unity.xr.hands",
+      "fingerprint": "b137b9cef9d8ac6f2f21023d4def8cc316ae4dbc",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.5.0",
       "source": "registry"
     },
     "com.unity.xr.interaction.toolkit@3.0.7": {
@@ -120,12 +128,20 @@
       "version": "4.5.0",
       "source": "registry"
     },
-    "com.unity.xr.openxr@1.13.1": {
+    "com.unity.xr.mock-hmd@1.4.0-preview.2": {
+      "name": "com.unity.xr.mock-hmd",
+      "resolvedPath": "C:\\EscapeHome\\EscapeHome\\Homescape - The CATastrophy\\Library\\PackageCache\\com.unity.xr.mock-hmd",
+      "fingerprint": "bf4cb37c5d7a4b8dbfc9c398afe865e8bff26226",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.4.0-preview.2",
+      "source": "registry"
+    },
+    "com.unity.xr.openxr@1.13.2": {
       "name": "com.unity.xr.openxr",
       "resolvedPath": "C:\\EscapeHome\\EscapeHome\\Homescape - The CATastrophy\\Library\\PackageCache\\com.unity.xr.openxr",
-      "fingerprint": "767bb845714d00a28b9456f5d706bb80c95781b7",
+      "fingerprint": "b26e591b92ca1195bc976482dd9395786d1fcc20",
       "editorCompatibility": "2021.3.0a1",
-      "version": "1.13.1",
+      "version": "1.13.2",
       "source": "registry"
     },
     "com.unity.modules.accessibility@1.0.0": {
