@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638726180173437705
-    m_Hash: 2544806846
+      ticks: 638739148885966252
+    m_Hash: 477046781
   m_LockFileStatus:
     m_FilePath: C:/EscapeHome/EscapeHome/Homescape - The CATastrophy/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638726180173493650
-    m_Hash: 2515851985
+      ticks: 638739148886037148
+    m_Hash: 2038083497
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,6 +22,76 @@ m_LocalPackages:
 m_ProjectPath: C:/EscapeHome/EscapeHome/Homescape - The CATastrophy/Packages
 m_EditorVersion: 6000.0.26f1 (ccb7c73d2c02)
 m_ResolvedPackages:
+- packageId: com.unity.2d.sprite@1.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 2
+  resolvedPath: C:\EscapeHome\EscapeHome\Homescape - The CATastrophy\Library\PackageCache\com.unity.2d.sprite
+  assetPath: Packages/com.unity.2d.sprite
+  name: com.unity.2d.sprite
+  displayName: 2D Sprite
+  author:
+    name: 
+    email: 
+    url: 
+  category: 2D
+  type: 
+  description: Use Unity Sprite Editor Window to create and edit Sprite asset properties
+    like pivot, borders and Physics shape
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - 2d
+  - sprite
+  - sprite editor window
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 0e70656ef5df5c7161c8cfc6f24ab0dde0dc637e
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 2019.2.0a1
 - packageId: com.unity.ai.navigation@2.0.5
   testable: 0
   isDirectDependency: 1
@@ -676,8 +746,10 @@ m_ResolvedPackages:
     - 1.11.0
     - 1.11.1
     - 1.11.2
+    - 1.12.0
     compatible:
     - 1.11.2
+    - 1.12.0
     recommended: 1.11.2
     deprecated: []
   dependencies:
@@ -4909,9 +4981,11 @@ m_ResolvedPackages:
     - 2.1.9
     - 2.1.10
     - 2.1.11
+    - 2.1.12
     compatible:
     - 2.1.11
-    recommended: 2.1.11
+    - 2.1.12
+    recommended: 2.1.12
     deprecated: []
   dependencies:
   - name: com.unity.modules.vr
@@ -5694,9 +5768,11 @@ m_ResolvedPackages:
     - 4.7.0-preview
     - 4.9.1
     - 4.9.2
+    - 4.9.3
     compatible:
     - 4.9.2
-    recommended: 4.9.2
+    - 4.9.3
+    recommended: 4.9.3
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -5895,9 +5971,11 @@ m_ResolvedPackages:
     - 1.8.16
     - 1.8.17
     - 1.8.18
+    - 1.8.19
     compatible:
     - 1.8.18
-    recommended: 1.8.18
+    - 1.8.19
+    recommended: 1.8.19
     deprecated: []
   dependencies:
   - name: com.unity.mathematics
@@ -6050,9 +6128,11 @@ m_ResolvedPackages:
     - 2.5.0-exp.1
     - 2.5.0-pre.2
     - 2.5.1
+    - 2.5.2
     compatible:
     - 2.5.1
-    recommended: 2.5.1
+    - 2.5.2
+    recommended: 2.5.2
     deprecated: []
   dependencies:
   - name: com.unity.burst
@@ -6256,9 +6336,11 @@ m_ResolvedPackages:
     - 1.10.1
     - 1.10.2
     - 1.11.4
+    - 1.11.5
     compatible:
     - 1.11.4
-    recommended: 1.11.4
+    - 1.11.5
+    recommended: 1.11.5
     deprecated: []
   dependencies: []
   resolvedDependencies: []
